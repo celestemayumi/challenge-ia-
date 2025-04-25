@@ -20,7 +20,7 @@ Será implementado em outra aplicação que está sendo desenvolvida em C# e se 
 
 - Autenticador facial em consultas
 
-Ainda não foi desenvolvido, a aplicação contém erros e não é recomendada ser utilizada ainda. Estamos providenciando as ferramentas necessárias nas nossas máquinas pessoais para que a biblioteca de reconhecimento facial funcione.
+O autenticador realizará uma verificação entre as imagens enviadas pelo usuário no sistema pelo aplicativo e dirá se é a mesma pessoa ou não retornando True ou False e a similaridade entre eles. Caso for True, o paciente poderá iniciar a consulta tranquilamente, caso seja False a consulta não será iniciada e será um indicador de fraude.
 
 
 ## Devs
