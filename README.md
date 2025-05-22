@@ -7,14 +7,14 @@ Projeto que utiliza machine learning e visão computacional na solução de redu
 
 - Predição de pacientes suspeitos
 - Predição de dentistas suspeitos
+- Predição que diz qual a probabilidade do paciente aparecer na consulta
 
 Nessa versão, nossa solução está bem simples, é apenas um teste de quais serão as métricas de avaliação e qual o melhor modelo para treino do nosso dataset.
 
-O dataset é fictício, gerado por IA.
 
-Estamos utilizando bibliotecas simples de visualização de dados e machine learning como o Pandas, Matplotlib, Seaborn e o Scikit-Learn
+Estamos utilizando o ML.NET. O modelo já está conectado à API desenvolvida em .NET, porém ainda não está integrado ao banco de dados, pois nem todas as tabelas necessárias foram criadas.
 
-Será implementado em outra aplicação que está sendo desenvolvida em C# e se conectará com o banco de dados.
+Os dados utilizados não são 100% confiáveis, pois foram gerados por inteligência artificial. Atualmente, o modelo é treinado com base em um arquivo CSV, que poderá ser substituído futuramente por dados mais precisos, visando melhorar os resultados.
 
 ## Funcionalidades (Face Authentication)
 
